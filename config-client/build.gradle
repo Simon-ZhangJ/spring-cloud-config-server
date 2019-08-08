@@ -1,0 +1,9 @@
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter-web:${springboot_version}")
+    compile("org.springframework.boot:spring-boot-starter-actuator:${springboot_version}")
+    compile("org.springframework.cloud:spring-cloud-starter-config:${spring_cloud_netflix}")
+    compile("org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:${spring_cloud_netflix}")
+    compile("org.springframework.cloud:spring-cloud-starter-bus-amqp:${spring_cloud_netflix}")
+
+    testCompile("org.springframework.boot:spring-boot-starter-test:${springboot_version}")
+}
